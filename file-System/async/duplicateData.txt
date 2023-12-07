@@ -1,0 +1,5 @@
+fs.readFile is used to asynchronously read the contents of a file. 
+It takes the file path, encoding (optional), and a callback function that will be called with the error or the file content.
+
+fs.writeFile is used to asynchronously write data to a file. 
+It takes the file path, data to write, encoding (optional), and a callback function that will be called with the error if any.

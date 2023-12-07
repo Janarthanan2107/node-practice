@@ -1,0 +1,8 @@
+Duplicate data from data.txt: 
+fs.readFileSync() is used to synchronously read the contents of a file.
+
+which is used to read the datafrom the file in the sync form.
+
+fs.writeFileSync() is used to synchronously write data to a file.
+
+write method which is used to write the data from one file to another file.
