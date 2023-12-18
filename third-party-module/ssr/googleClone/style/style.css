@@ -1,0 +1,372 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header section */
+header {
+    padding: 5px 0;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12);
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+header .row {
+    margin-top: 15px;
+}
+
+.header_logo {
+    width: 100px;
+}
+
+.logo_support {
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 22px;
+    color: rgb(110, 110, 110);
+}
+
+.header_nav {
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    margin: 0px 15px;
+}
+
+.header_nav a:hover {
+    color: black;
+}
+
+.header_btn {
+    margin-left: 20%;
+    width: 450px;
+}
+
+.header_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.header_btn .header_btn_one {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.header_btn .header_btn_one:hover {
+    color: rgb(22, 92, 209);
+    background-color: rgb(221, 220, 220);
+}
+
+.header_btn .header_btn_two {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header_btn .header_btn_two:hover {
+    background-color: rgb(12, 98, 184);
+}
+
+/* start of title */
+
+.title {
+    margin-top: 50px;
+}
+
+.title .title_one {
+    width: 40%;
+    padding: 25px;
+}
+
+.title_one h1 {
+    font-size: 4.10448vw;
+}
+
+.title_one p {
+    letter-spacing: .016em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+.title .title_two {
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+}
+
+.title_two video {
+    width: 80%;
+    margin: 10%;
+}
+
+/* start of support section */
+
+.support {
+    margin-top: 70px;
+    background-color: #fafafa;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.support_box {
+    width: 28%;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.support_box h3 {
+    font-size: 1.5rem;
+}
+
+.support_box p {
+    letter-spacing: .016em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+.support_box_bordered {
+    width: 28%;
+    margin: 0px auto;
+    padding: 30px;
+    border-left: 1px solid rgba(128, 128, 128, 0.3);
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.support_box_bordered h3 {
+    font-size: 1.5rem;
+}
+
+.support_box_bordered p {
+    letter-spacing: .016em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+.underline1 {
+    width: 30px;
+    height: 5px;
+    background-color: dodgerblue;
+    margin-top: -5px;
+}
+
+.underline2 {
+    width: 30px;
+    height: 5px;
+    background-color: #f4b400;
+    margin-top: -5px;
+}
+
+.underline3 {
+    width: 30px;
+    height: 5px;
+    background-color: #0f9d58;
+    margin-top: -5px;
+}
+
+/* start of features section */
+.features {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.features .features_img img {
+    width: 20%;
+    margin: 0px auto;
+}
+
+.features .features_content {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: -55px;
+}
+
+.features .features_content h2 {
+    letter-spacing: -.0103em;
+    font-size: 55px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.features .features_content p {
+    letter-spacing: .016em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+.features_btns_row {
+    margin-top: 70px;
+    display: flex;
+}
+
+.features_btns_row a {
+    text-decoration: none;
+    color: black;
+}
+
+.features_btn {
+    width: 33%;
+}
+
+.features_underline {
+    display: flex;
+}
+
+.features_underline1 {
+    width: 33%;
+    height: 5px;
+    background-color: rgb(18, 119, 220);
+    margin-top: 25px;
+}
+
+.features_underline2 {
+    width: 33%;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-top: 25px;
+}
+
+.features_underline3 {
+    width: 33%;
+    height: 5px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-top: 25px;
+}
+
+.features_panel_content {
+    align-items: center;
+    display: flex;
+    margin-top: -60px;
+}
+
+.features_one {
+    width: 38%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.features_two {
+    width: 50%;
+    padding: 25px;
+}
+
+.features_two video {
+    width: 100%;
+    margin: 10%;
+}
+
+.features_one p {
+    letter-spacing: .016em;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.625;
+    font-weight: 200;
+}
+
+.signin {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.signin .signin_head h1 {
+    font-size: 55px;
+    line-height: 1.25;
+}
+
+.signin_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.signin_btn div:nth-child(2) {
+    margin-top: 40px;
+}
+
+.signin_btn .header_btn_two {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.signin_btn .header_btn_two:hover {
+    background-color: rgb(12, 98, 184);
+}
+
+
+.signin_btn .header_btn_one {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.signin_btn .header_btn_one:hover {
+    color: rgb(22, 92, 209);
+}
+
+/* footer section */
+
+.footer {
+    padding: 30px 0px;
+    background-color: #fafafa;
+    align-items: center;
+}
+
+.footer h3 {
+    font-size: 1.8rem;
+    color: grey;
+}
+
+.footer .footer_nav {
+    padding: 37px 10px;
+    margin-left: 30px;
+}
+
+.footer_nav a {
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+    margin: 5px 15px;
+}
+
+.footer_nav a:hover {
+    color: #000;
+}
+
+.footer_help {
+    margin-left: 30%;
+    margin-top: 35px;
+}
+
+.footer_help small{
+    padding: 30px 10px;
+}
